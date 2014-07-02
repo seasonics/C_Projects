@@ -1,0 +1,7 @@
+A simple blackjack game.
+To run type make in the terminal and then ./blackjack
+It only allows for one split in the first hand of play, from which you can not get a traditional "blackjack" 
+on either of the split hands. A blackjack is a payoff of the bet*1.5, while a win is a payoff of the bet.
+A tie sees the player gain or lose no money and a loss is a subtraction of the bet from players chips.
+Dealer follows typical rules, they hit until the value of their hand is greater than 17 and then they stand,
+however, if a dealer has a soft hand of 17,18,or 19 they will hit as well. 
